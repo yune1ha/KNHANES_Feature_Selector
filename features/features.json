@@ -1,0 +1,58 @@
+{
+"basic_feats": [
+    "age", "sex"
+],
+
+"nutri_feats": [
+    "N_WAT_C", "NF_CAROT", "N_FM_WT", "NF_VA", "NF_K", "N_KINDG1", "N_KINDG2", 
+    "NF_RETIN", "NF_NA", "NF_PHOS", "NF_CA", "NF_INTK", "NF_CHO", "NF_EN", 
+    "NF_WATER", "NF_FE", "NF_PROT", "NF_FAT", "NF_B1", "N_DIET", "NF_VITC", 
+    "N_MEAL", "N_MEAL_T", "N_FCODE", "N_MTYPE", "N_MEAL_P", "N_DCODE", "NF_NIAC", 
+    "NF_B2", "N_DNAME", "N_AP", "N_FNAME", "N_DAY", "N_DUSUAL", "N_CD_VOL", 
+    "N_DIET_WHY", "N_FNAME3", "N_FCODE3", "NF_INTK3", "N_TD_VOL", "N_FNAME2", 
+    "N_FCODE2"
+],
+
+"nutri_nonquantitative_feats": [
+    "N_KINDG1", "N_KINDG2", "N_DIET",
+    "N_MEAL", "N_FCODE", "N_MTYPE", "N_MEAL_P", "N_DCODE",
+    "N_DNAME", "N_AP", "N_FNAME", "N_DAY",  
+    "N_DIET_WHY", "N_FNAME3", "N_FCODE3", "N_FNAME2", "N_FCODE2"
+],
+
+"easily_obtainable_nutri_nonquantitative_feats": [
+    "N_KINDG1", "N_KINDG2", "N_DIET", "N_MEAL", "N_MTYPE", "N_MEAL_P",
+    "N_DNAME", "N_AP", "N_DAY", "N_DIET_WHY"
+],
+
+"hard_to_obtain_nutri_nonquantitative_feats": [
+    "N_DCODE", "N_FCODE", "N_FCODE2", "N_FCODE3", "N_FNAME", "N_FNAME2", 
+    "N_FNAME3"
+],
+
+"easily_obtainable_nutri_quantitative_feats": [
+    "N_DUSUAL", "N_MEAL_T", "N_WAT_C"
+],
+
+"mets_score_feats": [
+],
+
+"health_status_feats": [
+    "DC1_dg", "DC11_dg", "DC12_dg", "DC2_dg", "DC3_dg", "DC4_dg", "DC5_dg", 
+    "DC6_dg", "DC7_dg", "DE1_dg", "DF2_dg", "DF2_dg", "DI1_dg", "DI3_dg", 
+    "DI4_dg", "DI5_dg", "DI6_dg", "DJ2_dg", "DJ4_dg", "DM1_dg", "DM2_dg", 
+    "DM3_dg", "DN1_dg", "DK4_dg"
+],
+
+"nutri_frontmask": [
+    "L", "LS", "LK", "LF",
+    "DA", "DQ",
+    "Y",
+    "N", "NF"
+],
+
+"white_list_prefix": [
+    "D", "H" 
+]
+
+}
