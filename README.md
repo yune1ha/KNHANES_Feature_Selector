@@ -1,5 +1,5 @@
 # KNHANES_Feature_Selector
-Various feature selection methods designed to be performed on KNHANES (Korea Ntional Health and Nutrition Examination Survey) data.
+Various feature selection methods designed to be performed on KNHANES (Korea National Health and Nutrition Examination Survey) data.
 
 Concatenator is included which combines all years' tables (initial feature set selection is recommended as using all columns will result in too large of a cache).
 
